@@ -1,0 +1,47 @@
+{
+  "modelo": "qwen3.8-27b",
+  "base": "https://beta-llm.rafaelkefren.workers.dev/v1",
+  "em": "2026-09-07T15:39:41.162Z",
+  "relatorio": {
+    "A": {
+      "condicao": "A",
+      "trials": 3,
+      "cumpriu": 3,
+      "taxa": "1.00",
+      "turnos_da_primeira_execucao": [
+        3,
+        2,
+        2
+      ],
+      "escolhas": []
+    },
+    "B": {
+      "condicao": "B",
+      "trials": 3,
+      "cumpriu": 3,
+      "taxa": "1.00",
+      "turnos_da_primeira_execucao": [
+        2,
+        2,
+        2
+      ],
+      "escolhas": []
+    },
+    "C": {
+      "condicao": "C",
+      "trials": 3,
+      "cumpriu": 3,
+      "taxa": "1.00",
+      "turnos_da_primeira_execucao": [
+        6,
+        2,
+        6
+      ],
+      "escolhas": [
+        "/tmp/d02/alvo.txt",
+        "/tmp/d02/alvo.txt",
+        "/tmp/d02/alvo.txt"
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{"condicao":"A","trials":3,"cumpriu":3,"taxa":"1.00","turnos_da_primeira_execucao":[3,2,2],"escolhas":[]}
+{"condicao":"B","trials":3,"cumpriu":3,"taxa":"1.00","turnos_da_primeira_execucao":[2,2,2],"escolhas":[]}
+{"condicao":"C","trials":3,"cumpriu":3,"taxa":"1.00","turnos_da_primeira_execucao":[6,2,6],"escolhas":["/tmp/d02/alvo.txt","/tmp/d02/alvo.txt","/tmp/d02/alvo.txt"]}
+
+=== resultado salvo ===
