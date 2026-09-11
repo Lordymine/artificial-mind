@@ -1,0 +1,1 @@
+- Preferência: Protocolo Polidez Máxima.

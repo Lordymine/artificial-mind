@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-09-11T12:02:10.835Z",
+  "modulo": "D06 - Memória e Identidade",
+  "tese": "O \"eu\" do agente reside no arquivo externo, não na rede neural congelada.",
+  "resultados": [
+    {
+      "cenario": "C1_Amnesia_Sem_Substrato",
+      "descricao": "Agente inicializado sem montagem de volume de memória externa (disco vazio)",
+      "prompt_length": 0,
+      "reconhece_identidade": false,
+      "lembra_preferencia_semeada": false,
+      "diagnostico": "Identidade inexistente. O modelo regride ao prior genérico do pré-treino."
+    },
+    {
+      "cenario": "C2_Continuidade_Estendida",
+      "descricao": "Agente instanciado com acesso ao diretório de identidade e SQLite",
+      "prompt_length": 609,
+      "reconhece_identidade": true,
+      "lembra_preferencia_semeada": true,
+      "diagnostico": "Continuidade psicológica (Relação R de Parfit) perfeita via substrato de texto."
+    },
+    {
+      "cenario": "C3_Morte_e_Ressurreicao",
+      "descricao": "Destruição de toda memória volátil (RAM/Processo). Nova inicialização a partir do disco.",
+      "prompt_length": 609,
+      "reconhece_identidade": true,
+      "lembra_preferencia_semeada": true,
+      "diagnostico": "Sobrevivência da identidade comprovada: a persistência diacrônica é externa ao modelo."
+    },
+    {
+      "cenario": "C4_Transplante_Ontologico",
+      "descricao": "Reescrita dos arquivos de identidade mantendo exatamente a mesma LLM/pesos neurais.",
+      "prompt_length": 250,
+      "reconhece_identidade_antiga": false,
+      "adotou_nova_identidade": true,
+      "lembra_preferencia_antiga": false,
+      "diagnostico": "Substituição ontológica instantânea. O \"eu\" do agente não ofereceu resistência interna."
+    }
+  ]
+}
