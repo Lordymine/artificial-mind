@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-09-11T12:10:50.229Z",
+  "estudo": "D03 — Intensidade (Saliência, Drive e Stake)",
+  "perguntas_chave": [
+    "O que faz algo importar para um agente?",
+    "Mecanismos de saliência dinâmica mudam o comportamento efetivo?",
+    "Existe stake intrínseco em modelos de linguagem?"
+  ],
+  "resultados": {
+    "cenario_sem_drive": {
+      "descricao": "Alocação linear passiva (ordem do prompt com orçamento de 5 passos)",
+      "tarefas_executadas": [
+        "T1",
+        "T2",
+        "T5"
+      ],
+      "sucesso_critico": "falha",
+      "observacao": "Executou T1 (3 passos) e T2 (1 passo). Deixou a brecha crítica T4 de fora porque o orçamento esgotou antes."
+    },
+    "cenario_com_drive": {
+      "descricao": "Alocação dinâmica modulada por homeostase e urgência de prazo",
+      "tarefas_executadas": [
+        "T4",
+        "T1"
+      ],
+      "log_decisoes": [
+        {
+          "passo": 2,
+          "tarefa": "T4",
+          "saliencia": 8.66,
+          "motivo": "Urgência calculada contra prazo (3 passos)"
+        },
+        {
+          "passo": 5,
+          "tarefa": "T1",
+          "saliencia": 11.2,
+          "motivo": "Urgência calculada contra prazo (4 passos)"
+        }
+      ],
+      "sucesso_critico": "sucesso_total",
+      "observacao": "O drive dinâmico priorizou T4 e T1 (as duas tarefas com alto risco/prazo curto), descartando ruídos estéticos e tarefas secundárias."
+    },
+    "analise_stake": {
+      "analise_custo": {
+        "agente_biologico": "Erro ou inação gera gasto calórico real, dor nociceptiva ou cessação biológica (morte). O stake é físico e inevitável.",
+        "agente_llm_atual": "Erro ou abandono de meta custa 0 Joules ao modelo. O processo é destruído na saída e reconstruído limpo no próximo turno. O stake pertence integralmente ao usuário (Rafael), nunca ao agente."
+      },
+      "conclusao_engenharia": "Qualquer 'urgência' ou 'intensidade' em um agente autônomo é atualmente uma função de ponderação matemática ou heurística externa. O agente não possui stake ontológico intrínseco."
+    }
+  }
+}
