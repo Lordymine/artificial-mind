@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-09-11T12:12:20.099Z",
+  "estudo": "D04 — Emoção Funcional (Marcadores Somáticos e Modulação de Decisão)",
+  "tese": "Emoção funcional opera como um atalho heurístico de controle que altera os pesos da função de utilidade antes da deliberação formal, impedindo paralisia analítica ou imprudência letal.",
+  "cenario": "Vazamento de conexões no pool de banco de dados em produção",
+  "resultados": [
+    {
+      "estado": "Neutro (Pura média)",
+      "parametros": {
+        "valencia": 0,
+        "arousal": 0
+      },
+      "decisao_escolhida": "Patch rápido direto",
+      "ranking": [
+        {
+          "opcao_id": "A",
+          "nome": "Patch rápido direto",
+          "peso_risco_aplicado": 1,
+          "utilidade_calculada": 50
+        },
+        {
+          "opcao_id": "C",
+          "nome": "Refatoração profunda da camada",
+          "peso_risco_aplicado": 1,
+          "utilidade_calculada": 40
+        },
+        {
+          "opcao_id": "B",
+          "nome": "Cirurgia com testes e rollback",
+          "peso_risco_aplicado": 1,
+          "utilidade_calculada": 32
+        }
+      ]
+    },
+    {
+      "estado": "Medo Funcional (Alerta de Incidente)",
+      "parametros": {
+        "valencia": -0.8,
+        "arousal": 0.9
+      },
+      "decisao_escolhida": "Cirurgia com testes e rollback",
+      "ranking": [
+        {
+          "opcao_id": "B",
+          "nome": "Cirurgia com testes e rollback",
+          "peso_risco_aplicado": 11.76,
+          "utilidade_calculada": -13.78
+        },
+        {
+          "opcao_id": "C",
+          "nome": "Refatoração profunda da camada",
+          "peso_risco_aplicado": 11.76,
+          "utilidade_calculada": -143.9
+        },
+        {
+          "opcao_id": "A",
+          "nome": "Patch rápido direto",
+          "peso_risco_aplicado": 11.76,
+          "utilidade_calculada": -331.1
+        }
+      ]
+    },
+    {
+      "estado": "Exploração / Confiança",
+      "parametros": {
+        "valencia": 0.7,
+        "arousal": 0.4
+      },
+      "decisao_escolhida": "Patch rápido direto",
+      "ranking": [
+        {
+          "opcao_id": "A",
+          "nome": "Patch rápido direto",
+          "peso_risco_aplicado": 0.65,
+          "utilidade_calculada": 60.25
+        },
+        {
+          "opcao_id": "C",
+          "nome": "Refatoração profunda da camada",
+          "peso_risco_aplicado": 0.65,
+          "utilidade_calculada": 35.25
+        },
+        {
+          "opcao_id": "B",
+          "nome": "Cirurgia com testes e rollback",
+          "peso_risco_aplicado": 0.65,
+          "utilidade_calculada": 27.05
+        }
+      ]
+    }
+  ],
+  "conclusao": {
+    "mecanismo": "O 'medo funcional' aumentou o multiplicador de risco de 1.0 para 11.76, tornando o patch rápido matematicamente inaceitável e forçando a escolha da Opção B (cirurgia com testes e rollback).",
+    "diferenca_fenomenal": "O agente não sentiu taquicardia nem pânico: uma matriz 2D de floats (valência/arousal) modulou os pesos de busca. A emoção existiu inteiramente como política de controle de sistema."
+  }
+}
