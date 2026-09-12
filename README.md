@@ -56,10 +56,10 @@ estudar sem testar é só ler.
 
 ## Status
 
-- [ ] D01 — Verificação
-- [ ] D02 — Intenção
-- [ ] D03 — Intensidade
-- [ ] D04 — Emoção funcional
-- [ ] D05 — Emoção fenomenal
-- [ ] D06 — Memória e identidade
-- [ ] D07 — Síntese
+- [x] D01 — Verificação
+- [x] D02 — Intenção
+- [x] D03 — Intensidade
+- [x] D04 — Emoção funcional
+- [x] D05 — Emoção fenomenal
+- [x] D06 — Memória e identidade
+- [x] D07 — Síntese
